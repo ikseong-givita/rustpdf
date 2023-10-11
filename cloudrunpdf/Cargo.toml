@@ -1,0 +1,20 @@
+[package]
+name = "cloudrunpdf"
+version = "0.1.0"
+edition = "2021"
+
+#[workspace]
+#members = [
+    #"usecase"
+#]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+usecase = { path = "../usecase"}
+
+headless_chrome = "1.0.5"
+actix-web = "4.4.0"
+actix-rt = "2.9.0"
+anyhow = "1.0"
+

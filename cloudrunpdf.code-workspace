@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			"./cloudrunpdf/Cargo.toml",
+			"./usecase/Cargo.toml"
+		]
+	}
+}
